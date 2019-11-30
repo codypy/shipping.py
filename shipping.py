@@ -31,4 +31,4 @@ def cheapest_shipping (weight):
   else:
     return "The cheapest method will be drone shipping with a cost of $ " + str(cost_drone_ship (weight))
   
-print(cheapest_shipping(1.8))
+print(cheapest_shipping())
